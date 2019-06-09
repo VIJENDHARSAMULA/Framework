@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setup is  being done and test case is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setup is  done and test case is ready]]>
+    </line>
+    <line>
+      <![CDATA[broser setup and application url is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[browser Setup is done and application is running]]>
+    </line>
+    <line>
+      <![CDATA[Test case is executed successfully and about to capture screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Test case executed and screenshot captured]]>
+    </line>
+    <line>
+      <![CDATA[test case completed and browser is about to quit]]>
+    </line>
+    <line>
+      <![CDATA[browser closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50357" started-at="2019-06-09T07:01:19Z" finished-at="2019-06-09T07:02:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50357" started-at="2019-06-09T07:01:19Z" finished-at="2019-06-09T07:02:09Z">
+      <class name="com.learnautomation.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@bd1b6a]" name="setUpSuite" is-config="true" duration-ms="1781" started-at="2019-06-09T12:31:17Z" finished-at="2019-06-09T12:31:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setup is  being done and test case is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setup is  done and test case is ready]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@bd1b6a]" name="setUp" is-config="true" duration-ms="33475" started-at="2019-06-09T12:31:19Z" finished-at="2019-06-09T12:31:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[broser setup and application url is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[browser Setup is done and application is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loignApp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@bd1b6a]" name="loignApp" duration-ms="13622" started-at="2019-06-09T12:31:52Z" finished-at="2019-06-09T12:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loignApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@bd1b6a]" name="tearDownMethod" is-config="true" duration-ms="2153" started-at="2019-06-09T12:32:06Z" finished-at="2019-06-09T12:32:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loignApp status=SUCCESS method=LoginTestCRM.loignApp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@bd1b6a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is executed successfully and about to capture screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Test case executed and screenshot captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@bd1b6a]" name="tearDown" is-config="true" duration-ms="1042" started-at="2019-06-09T12:32:08Z" finished-at="2019-06-09T12:32:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[test case completed and browser is about to quit]]>
+            </line>
+            <line>
+              <![CDATA[browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
