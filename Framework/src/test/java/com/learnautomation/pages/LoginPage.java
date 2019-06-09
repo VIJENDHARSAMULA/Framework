@@ -13,7 +13,7 @@ public class LoginPage {
 		this.driver = driver;
 		
 		}
-	
+	//This is a new commit by vijendar
 	@FindBy(name="username") WebElement uName;
 	@FindBy(name="password") WebElement pWord;
 	@FindBy(xpath="//input[@value='Login']") WebElement loginBtn;
